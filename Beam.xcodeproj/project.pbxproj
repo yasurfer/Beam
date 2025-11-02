@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E64FDCF22EB66A2700AB0C9C /* MeshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64FDCF12EB66A2700AB0C9C /* MeshService.swift */; };
+		E657026B2EB3D09C00324B99 /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E657026A2EB3D09C00324B99 /* ContactInfoView.swift */; };
+		E657026E2EB4B18A00324B99 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E657026C2EB4B18A00324B99 /* CryptoService.swift */; };
+		E657026F2EB4B18A00324B99 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E657026D2EB4B18A00324B99 /* KeychainService.swift */; };
+		E65702732EB4B1C800324B99 /* EncryptedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65702702EB4B1C800324B99 /* EncryptedMessage.swift */; };
+		E65702742EB4B1C800324B99 /* SessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65702712EB4B1C800324B99 /* SessionState.swift */; };
+		E65702752EB4B1C800324B99 /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65702722EB4B1C800324B99 /* ContactCard.swift */; };
+		E6D3A62D2EB3AFA300A0491D /* BeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A62C2EB3AFA300A0491D /* BeamApp.swift */; };
+		E6D3A62F2EB3AFA300A0491D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A62E2EB3AFA300A0491D /* ContentView.swift */; };
+		E6D3A6312EB3AFA400A0491D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D3A6302EB3AFA400A0491D /* Assets.xcassets */; };
+		E6D3A6352EB3AFA400A0491D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D3A6342EB3AFA400A0491D /* Preview Assets.xcassets */; };
+		E6D3A63F2EB3AFA400A0491D /* BeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A63E2EB3AFA400A0491D /* BeamTests.swift */; };
+		E6D3A6492EB3AFA400A0491D /* BeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6482EB3AFA400A0491D /* BeamUITests.swift */; };
+		E6D3A64B2EB3AFA400A0491D /* BeamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A64A2EB3AFA400A0491D /* BeamUITestsLaunchTests.swift */; };
+		E6D3A6792EB3BBF300A0491D /* ConnectionStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6622EB3BBF300A0491D /* ConnectionStatusView.swift */; };
+		E6D3A67A2EB3BBF300A0491D /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6632EB3BBF300A0491D /* AvatarView.swift */; };
+		E6D3A67B2EB3BBF300A0491D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6652EB3BBF300A0491D /* Message.swift */; };
+		E6D3A67C2EB3BBF300A0491D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6662EB3BBF300A0491D /* User.swift */; };
+		E6D3A67D2EB3BBF300A0491D /* ConnectionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6672EB3BBF300A0491D /* ConnectionStatus.swift */; };
+		E6D3A67E2EB3BBF300A0491D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6682EB3BBF300A0491D /* Contact.swift */; };
+		E6D3A67F2EB3BBF300A0491D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A66A2EB3BBF300A0491D /* ContactsView.swift */; };
+		E6D3A6802EB3BBF300A0491D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A66B2EB3BBF300A0491D /* SettingsView.swift */; };
+		E6D3A6812EB3BBF300A0491D /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A66C2EB3BBF300A0491D /* ChatListView.swift */; };
+		E6D3A6822EB3BBF300A0491D /* MyQRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A66D2EB3BBF300A0491D /* MyQRCodeView.swift */; };
+		E6D3A6832EB3BBF300A0491D /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A66E2EB3BBF300A0491D /* ChatView.swift */; };
+		E6D3A6842EB3BBF300A0491D /* ScanQRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A66F2EB3BBF300A0491D /* ScanQRCodeView.swift */; };
+		E6D3A6872EB3BBF300A0491D /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6732EB3BBF300A0491D /* MessageService.swift */; };
+		E6D3A6882EB3BBF300A0491D /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6742EB3BBF300A0491D /* DatabaseService.swift */; };
+		E6D3A6892EB3BBF300A0491D /* EncryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6752EB3BBF300A0491D /* EncryptionService.swift */; };
+		E6D3A68A2EB3BBF300A0491D /* BeamColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6772EB3BBF300A0491D /* BeamColors.swift */; };
+		E6D3A68B2EB3BBF300A0491D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3A6782EB3BBF300A0491D /* DateExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6D3A63B2EB3AFA400A0491D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D3A6212EB3AFA300A0491D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D3A6282EB3AFA300A0491D;
+			remoteInfo = Beam;
+		};
+		E6D3A6452EB3AFA400A0491D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D3A6212EB3AFA300A0491D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D3A6282EB3AFA300A0491D;
+			remoteInfo = Beam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E64FDCF12EB66A2700AB0C9C /* MeshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshService.swift; sourceTree = "<group>"; };
+		E657026A2EB3D09C00324B99 /* ContactInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		E657026C2EB4B18A00324B99 /* CryptoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		E657026D2EB4B18A00324B99 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		E65702702EB4B1C800324B99 /* EncryptedMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptedMessage.swift; sourceTree = "<group>"; };
+		E65702712EB4B1C800324B99 /* SessionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionState.swift; sourceTree = "<group>"; };
+		E65702722EB4B1C800324B99 /* ContactCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
+		E6D3A6292EB3AFA300A0491D /* Beam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D3A62C2EB3AFA300A0491D /* BeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeamApp.swift; sourceTree = "<group>"; };
+		E6D3A62E2EB3AFA300A0491D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6D3A6302EB3AFA400A0491D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6D3A6322EB3AFA400A0491D /* Beam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beam.entitlements; sourceTree = "<group>"; };
+		E6D3A6322EB3AFA400A0491E /* Beam-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Beam-iOS.entitlements"; sourceTree = "<group>"; };
+		E6D3A6322EB3AFA400A0491F /* Beam-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Beam-macOS.entitlements"; sourceTree = "<group>"; };
+		E6D3A6322EB3AFA400A04920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D3A6342EB3AFA400A0491D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6D3A63A2EB3AFA400A0491D /* BeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D3A63E2EB3AFA400A0491D /* BeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeamTests.swift; sourceTree = "<group>"; };
+		E6D3A6442EB3AFA400A0491D /* BeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D3A6482EB3AFA400A0491D /* BeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeamUITests.swift; sourceTree = "<group>"; };
+		E6D3A64A2EB3AFA400A0491D /* BeamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6D3A6622EB3BBF300A0491D /* ConnectionStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionStatusView.swift; sourceTree = "<group>"; };
+		E6D3A6632EB3BBF300A0491D /* AvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		E6D3A6652EB3BBF300A0491D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E6D3A6662EB3BBF300A0491D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E6D3A6672EB3BBF300A0491D /* ConnectionStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionStatus.swift; sourceTree = "<group>"; };
+		E6D3A6682EB3BBF300A0491D /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E6D3A66A2EB3BBF300A0491D /* ContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		E6D3A66B2EB3BBF300A0491D /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E6D3A66C2EB3BBF300A0491D /* ChatListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		E6D3A66D2EB3BBF300A0491D /* MyQRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQRCodeView.swift; sourceTree = "<group>"; };
+		E6D3A66E2EB3BBF300A0491D /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		E6D3A66F2EB3BBF300A0491D /* ScanQRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRCodeView.swift; sourceTree = "<group>"; };
+		E6D3A6732EB3BBF300A0491D /* MessageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		E6D3A6742EB3BBF300A0491D /* DatabaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		E6D3A6752EB3BBF300A0491D /* EncryptionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionService.swift; sourceTree = "<group>"; };
+		E6D3A6772EB3BBF300A0491D /* BeamColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeamColors.swift; sourceTree = "<group>"; };
+		E6D3A6782EB3BBF300A0491D /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6D3A6262EB3AFA300A0491D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3A6372EB3AFA400A0491D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3A6412EB3AFA400A0491D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6D3A6202EB3AFA300A0491D = {
+			isa = PBXGroup;
+			children = (
+				E6D3A62B2EB3AFA300A0491D /* Beam */,
+				E6D3A63D2EB3AFA400A0491D /* BeamTests */,
+				E6D3A6472EB3AFA400A0491D /* BeamUITests */,
+				E6D3A62A2EB3AFA300A0491D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6D3A62A2EB3AFA300A0491D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A6292EB3AFA300A0491D /* Beam.app */,
+				E6D3A63A2EB3AFA400A0491D /* BeamTests.xctest */,
+				E6D3A6442EB3AFA400A0491D /* BeamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D3A62B2EB3AFA300A0491D /* Beam */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A6702EB3BBF300A0491D /* Services */,
+				E6D3A6762EB3BBF300A0491D /* Utilities */,
+				E6D3A6612EB3BBF300A0491D /* Components */,
+				E6D3A6642EB3BBF300A0491D /* Models */,
+				E6D3A6692EB3BBF300A0491D /* Views */,
+				E6D3A62C2EB3AFA300A0491D /* BeamApp.swift */,
+				E6D3A62E2EB3AFA300A0491D /* ContentView.swift */,
+				E6D3A6302EB3AFA400A0491D /* Assets.xcassets */,
+				E6D3A6322EB3AFA400A0491D /* Beam.entitlements */,
+				E6D3A6322EB3AFA400A0491E /* Beam-iOS.entitlements */,
+				E6D3A6322EB3AFA400A0491F /* Beam-macOS.entitlements */,
+				E6D3A6322EB3AFA400A04920 /* Info.plist */,
+				E6D3A6332EB3AFA400A0491D /* Preview Content */,
+			);
+			path = Beam;
+			sourceTree = "<group>";
+		};
+		E6D3A6332EB3AFA400A0491D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A6342EB3AFA400A0491D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6D3A63D2EB3AFA400A0491D /* BeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A63E2EB3AFA400A0491D /* BeamTests.swift */,
+			);
+			path = BeamTests;
+			sourceTree = "<group>";
+		};
+		E6D3A6472EB3AFA400A0491D /* BeamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A6482EB3AFA400A0491D /* BeamUITests.swift */,
+				E6D3A64A2EB3AFA400A0491D /* BeamUITestsLaunchTests.swift */,
+			);
+			path = BeamUITests;
+			sourceTree = "<group>";
+		};
+		E6D3A6612EB3BBF300A0491D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A6622EB3BBF300A0491D /* ConnectionStatusView.swift */,
+				E6D3A6632EB3BBF300A0491D /* AvatarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E6D3A6642EB3BBF300A0491D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A6652EB3BBF300A0491D /* Message.swift */,
+				E6D3A6662EB3BBF300A0491D /* User.swift */,
+				E65702712EB4B1C800324B99 /* SessionState.swift */,
+				E65702722EB4B1C800324B99 /* ContactCard.swift */,
+				E65702702EB4B1C800324B99 /* EncryptedMessage.swift */,
+				E6D3A6672EB3BBF300A0491D /* ConnectionStatus.swift */,
+				E6D3A6682EB3BBF300A0491D /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E6D3A6692EB3BBF300A0491D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A66A2EB3BBF300A0491D /* ContactsView.swift */,
+				E6D3A66B2EB3BBF300A0491D /* SettingsView.swift */,
+				E657026A2EB3D09C00324B99 /* ContactInfoView.swift */,
+				E6D3A66C2EB3BBF300A0491D /* ChatListView.swift */,
+				E6D3A66D2EB3BBF300A0491D /* MyQRCodeView.swift */,
+				E6D3A66E2EB3BBF300A0491D /* ChatView.swift */,
+				E6D3A66F2EB3BBF300A0491D /* ScanQRCodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6D3A6702EB3BBF300A0491D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E64FDCF12EB66A2700AB0C9C /* MeshService.swift */,
+				E657026C2EB4B18A00324B99 /* CryptoService.swift */,
+				E657026D2EB4B18A00324B99 /* KeychainService.swift */,
+				E6D3A6732EB3BBF300A0491D /* MessageService.swift */,
+				E6D3A6742EB3BBF300A0491D /* DatabaseService.swift */,
+				E6D3A6752EB3BBF300A0491D /* EncryptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E6D3A6762EB3BBF300A0491D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3A6772EB3BBF300A0491D /* BeamColors.swift */,
+				E6D3A6782EB3BBF300A0491D /* DateExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6D3A6282EB3AFA300A0491D /* Beam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D3A64E2EB3AFA400A0491D /* Build configuration list for PBXNativeTarget "Beam" */;
+			buildPhases = (
+				E6D3A6252EB3AFA300A0491D /* Sources */,
+				E6D3A6262EB3AFA300A0491D /* Frameworks */,
+				E6D3A6272EB3AFA300A0491D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beam;
+			productName = Beam;
+			productReference = E6D3A6292EB3AFA300A0491D /* Beam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6D3A6392EB3AFA400A0491D /* BeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D3A6512EB3AFA400A0491D /* Build configuration list for PBXNativeTarget "BeamTests" */;
+			buildPhases = (
+				E6D3A6362EB3AFA400A0491D /* Sources */,
+				E6D3A6372EB3AFA400A0491D /* Frameworks */,
+				E6D3A6382EB3AFA400A0491D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D3A63C2EB3AFA400A0491D /* PBXTargetDependency */,
+			);
+			name = BeamTests;
+			productName = BeamTests;
+			productReference = E6D3A63A2EB3AFA400A0491D /* BeamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6D3A6432EB3AFA400A0491D /* BeamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D3A6542EB3AFA400A0491D /* Build configuration list for PBXNativeTarget "BeamUITests" */;
+			buildPhases = (
+				E6D3A6402EB3AFA400A0491D /* Sources */,
+				E6D3A6412EB3AFA400A0491D /* Frameworks */,
+				E6D3A6422EB3AFA400A0491D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D3A6462EB3AFA400A0491D /* PBXTargetDependency */,
+			);
+			name = BeamUITests;
+			productName = BeamUITests;
+			productReference = E6D3A6442EB3AFA400A0491D /* BeamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6D3A6212EB3AFA300A0491D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E6D3A6282EB3AFA300A0491D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E6D3A6392EB3AFA400A0491D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E6D3A6282EB3AFA300A0491D;
+					};
+					E6D3A6432EB3AFA400A0491D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E6D3A6282EB3AFA300A0491D;
+					};
+				};
+			};
+			buildConfigurationList = E6D3A6242EB3AFA300A0491D /* Build configuration list for PBXProject "Beam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6D3A6202EB3AFA300A0491D;
+			productRefGroup = E6D3A62A2EB3AFA300A0491D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6D3A6282EB3AFA300A0491D /* Beam */,
+				E6D3A6392EB3AFA400A0491D /* BeamTests */,
+				E6D3A6432EB3AFA400A0491D /* BeamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6D3A6272EB3AFA300A0491D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3A6352EB3AFA400A0491D /* Preview Assets.xcassets in Resources */,
+				E6D3A6312EB3AFA400A0491D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3A6382EB3AFA400A0491D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3A6422EB3AFA400A0491D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6D3A6252EB3AFA300A0491D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3A6882EB3BBF300A0491D /* DatabaseService.swift in Sources */,
+				E6D3A6812EB3BBF300A0491D /* ChatListView.swift in Sources */,
+				E6D3A6892EB3BBF300A0491D /* EncryptionService.swift in Sources */,
+				E6D3A67D2EB3BBF300A0491D /* ConnectionStatus.swift in Sources */,
+				E6D3A62F2EB3AFA300A0491D /* ContentView.swift in Sources */,
+				E657026F2EB4B18A00324B99 /* KeychainService.swift in Sources */,
+				E64FDCF22EB66A2700AB0C9C /* MeshService.swift in Sources */,
+				E657026B2EB3D09C00324B99 /* ContactInfoView.swift in Sources */,
+				E6D3A67A2EB3BBF300A0491D /* AvatarView.swift in Sources */,
+				E6D3A68A2EB3BBF300A0491D /* BeamColors.swift in Sources */,
+				E657026E2EB4B18A00324B99 /* CryptoService.swift in Sources */,
+				E6D3A6822EB3BBF300A0491D /* MyQRCodeView.swift in Sources */,
+				E6D3A6872EB3BBF300A0491D /* MessageService.swift in Sources */,
+				E6D3A67C2EB3BBF300A0491D /* User.swift in Sources */,
+				E6D3A6832EB3BBF300A0491D /* ChatView.swift in Sources */,
+				E65702732EB4B1C800324B99 /* EncryptedMessage.swift in Sources */,
+				E6D3A6842EB3BBF300A0491D /* ScanQRCodeView.swift in Sources */,
+				E6D3A68B2EB3BBF300A0491D /* DateExtensions.swift in Sources */,
+				E6D3A67E2EB3BBF300A0491D /* Contact.swift in Sources */,
+				E6D3A6802EB3BBF300A0491D /* SettingsView.swift in Sources */,
+				E6D3A67B2EB3BBF300A0491D /* Message.swift in Sources */,
+				E65702742EB4B1C800324B99 /* SessionState.swift in Sources */,
+				E6D3A67F2EB3BBF300A0491D /* ContactsView.swift in Sources */,
+				E6D3A6792EB3BBF300A0491D /* ConnectionStatusView.swift in Sources */,
+				E6D3A62D2EB3AFA300A0491D /* BeamApp.swift in Sources */,
+				E65702752EB4B1C800324B99 /* ContactCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3A6362EB3AFA400A0491D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3A63F2EB3AFA400A0491D /* BeamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3A6402EB3AFA400A0491D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3A6492EB3AFA400A0491D /* BeamUITests.swift in Sources */,
+				E6D3A64B2EB3AFA400A0491D /* BeamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6D3A63C2EB3AFA400A0491D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D3A6282EB3AFA300A0491D /* Beam */;
+			targetProxy = E6D3A63B2EB3AFA400A0491D /* PBXContainerItemProxy */;
+		};
+		E6D3A6462EB3AFA400A0491D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D3A6282EB3AFA300A0491D /* Beam */;
+			targetProxy = E6D3A6452EB3AFA400A0491D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6D3A64C2EB3AFA400A0491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6D3A64D2EB3AFA400A0491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E6D3A64F2EB3AFA400A0491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "Beam/Beam-iOS.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = "Beam/Beam-iOS.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Beam/Beam-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Beam/Preview Content\"";
+				DEVELOPMENT_TEAM = 69K2QVMV6U;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Beam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = getbeam.nl.Beam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6D3A6502EB3AFA400A0491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "Beam/Beam-iOS.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = "Beam/Beam-iOS.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Beam/Beam-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Beam/Preview Content\"";
+				DEVELOPMENT_TEAM = 69K2QVMV6U;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Beam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = getbeam.nl.Beam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6D3A6522EB3AFA400A0491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 69K2QVMV6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = getbeam.nl.BeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beam";
+			};
+			name = Debug;
+		};
+		E6D3A6532EB3AFA400A0491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 69K2QVMV6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = getbeam.nl.BeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beam";
+			};
+			name = Release;
+		};
+		E6D3A6552EB3AFA400A0491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 69K2QVMV6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = getbeam.nl.BeamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Beam;
+			};
+			name = Debug;
+		};
+		E6D3A6562EB3AFA400A0491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 69K2QVMV6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = getbeam.nl.BeamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Beam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6D3A6242EB3AFA300A0491D /* Build configuration list for PBXProject "Beam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D3A64C2EB3AFA400A0491D /* Debug */,
+				E6D3A64D2EB3AFA400A0491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D3A64E2EB3AFA400A0491D /* Build configuration list for PBXNativeTarget "Beam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D3A64F2EB3AFA400A0491D /* Debug */,
+				E6D3A6502EB3AFA400A0491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D3A6512EB3AFA400A0491D /* Build configuration list for PBXNativeTarget "BeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D3A6522EB3AFA400A0491D /* Debug */,
+				E6D3A6532EB3AFA400A0491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D3A6542EB3AFA400A0491D /* Build configuration list for PBXNativeTarget "BeamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D3A6552EB3AFA400A0491D /* Debug */,
+				E6D3A6562EB3AFA400A0491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6D3A6212EB3AFA300A0491D /* Project object */;
+}
