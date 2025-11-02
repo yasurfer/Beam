@@ -1,7 +1,7 @@
 # Beam 📡
 
 <p align="center">
-  <img src="screenshots/beam.png" alt="Beam Logo" width="200"/>
+  <img src="screenshots/logo.png" alt="Beam Logo" width="200"/>
 </p>
 
 <p align="center">
@@ -65,42 +65,23 @@ Unlike traditional messaging apps that rely on centralized servers, Beam creates
 ### iOS
 
 <p align="center">
-  <img src="screenshots/ios-chat-list.png" alt="iOS Chat List" width="250"/>
-  <img src="screenshots/ios-chat-view.png" alt="iOS Chat View" width="250"/>
-  <img src="screenshots/ios-qr-code.png" alt="iOS QR Code" width="250"/>
+  <img src="screenshots/iphone_chat.jpeg" alt="iOS Chat" width="250"/>
+  <img src="screenshots/iphone_qrcode.jpeg" alt="iOS QR Code" width="250"/>
+  <img src="screenshots/iphone_settings.jpeg" alt="iOS Settings" width="250"/>
 </p>
 
 <p align="center">
-  <em>Chat List • Conversation View • QR Code Sharing</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/ios-scan-qr.png" alt="iOS QR Scanner" width="250"/>
-  <img src="screenshots/ios-contacts.png" alt="iOS Contacts" width="250"/>
-  <img src="screenshots/ios-settings.png" alt="iOS Settings" width="250"/>
-</p>
-
-<p align="center">
-  <em>QR Scanner • Contacts • Settings</em>
+  <em>Chat View • QR Code • Settings</em>
 </p>
 
 ### macOS
 
 <p align="center">
-  <img src="screenshots/macos-main-window.png" alt="macOS Main Window" width="800"/>
+  <img src="screenshots/macos_chat.png" alt="macOS Chat Interface" width="800"/>
 </p>
 
 <p align="center">
-  <em>macOS Main Interface with Side Navigation</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/macos-qr-modal.png" alt="macOS QR Modal" width="400"/>
-  <img src="screenshots/macos-contacts-modal.png" alt="macOS Contacts Modal" width="400"/>
-</p>
-
-<p align="center">
-  <em>QR Code Modal • Contacts Modal</em>
+  <em>macOS Chat Interface</em>
 </p>
 
 ---
@@ -245,8 +226,8 @@ Beam/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/beam.git
-   cd beam
+   git clone https://github.com/yasurfer/Beam.git
+   cd Beam
    ```
 
 2. **Open in Xcode**:
@@ -529,9 +510,9 @@ See the [LICENSE](LICENSE) file for full details, or visit https://polyformproje
 
 ## 📞 Contact
 
-- **Project Link**: [https://github.com/yourusername/beam](https://github.com/yourusername/beam)
-- **Issues**: [https://github.com/yourusername/beam/issues](https://github.com/yourusername/beam/issues)
-- **Discussions**: [https://github.com/yourusername/beam/discussions](https://github.com/yourusername/beam/discussions)
+- **Project Link**: [https://github.com/yasurfer/Beam](https://github.com/yasurfer/Beam)
+- **Issues**: [https://github.com/yasurfer/Beam/issues](https://github.com/yasurfer/Beam/issues)
+- **Discussions**: [https://github.com/yasurfer/Beam/discussions](https://github.com/yasurfer/Beam/discussions)
 
 ---
 

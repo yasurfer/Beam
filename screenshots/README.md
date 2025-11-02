@@ -2,31 +2,32 @@
 
 This directory contains screenshots for the main README.md file.
 
-## Required Screenshots
+## Current Screenshots
+
+### Logo
+- `logo.png` - Beam app logo (currently in use)
 
 ### iOS Screenshots (iPhone)
-Place these screenshots in this directory:
-
-- `ios-chat-list.png` - Main chat list view showing conversations
-- `ios-chat-view.png` - Individual chat conversation with messages
-- `ios-qr-code.png` - My QR Code view for sharing contact
-- `ios-scan-qr.png` - QR code scanner view
-- `ios-contacts.png` - All contacts list view
-- `ios-settings.png` - Settings view
-
-**Recommended Size**: 1170 x 2532 pixels (iPhone 14 Pro Max)
+- `iphone_chat.jpeg` - Chat interface ✅
+- `iphone_qrcode.jpeg` - QR code view ✅
+- `iphone_settings.jpeg` - Settings view ✅
+- `iphone_settings2.jpeg` - Additional settings view
 
 ### macOS Screenshots
-Place these screenshots in this directory:
+- `macos_chat.png` - Main chat interface ✅
 
-- `macos-main-window.png` - Main window showing sidebar and chat view
-- `macos-qr-modal.png` - QR code modal window
-- `macos-contacts-modal.png` - Contacts modal window
+## Screenshots Used in README
 
-**Recommended Size**: 2880 x 1800 pixels or larger (Retina resolution)
+The following screenshots are currently displayed in the main README.md:
+- Logo: `logo.png`
+- iOS: `iphone_chat.jpeg`, `iphone_qrcode.jpeg`, `iphone_settings.jpeg`
+- macOS: `macos_chat.png`
 
-### Optional
-- `beam-logo.png` - App logo/icon (512x512 pixels minimum)
+## Additional Screenshots Needed (Optional)
+
+If you want to add more screenshots to match the original README template:
+- iOS: Contact list, QR scanner, contact info
+- macOS: QR modal, contacts modal, settings
 
 ## How to Take Screenshots
 
